@@ -63,6 +63,16 @@ Analista Desarrollador con experiencia en el diseño, mantenimiento y modernizac
 
 <br/>
 
+## 🐍 Actividad
+
+<div align="center">
+
+![snake gif](https://raw.githubusercontent.com/jorgemartinez23/jorgemartinez23/output/github-contribution-grid-snake.svg)
+
+</div>
+
+<br/>
+
 ## 💼 Experiencia destacada
 
 <details open>
