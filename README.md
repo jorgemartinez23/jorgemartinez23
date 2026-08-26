@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 ¡Hola! Soy Analista Desarrollador
+# 👋 ¡Hola! Soy Jorge Martinez
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Analista+Desarrollador;VB6+%2F+VB.NET+%2F+Java+%2F+SQL+Server;Flutter+%2F+Node.js+%2F+MariaDB;Modernizaci%C3%B3n+de+sistemas+legacy)](https://git.io/typing-svg)
 
@@ -67,7 +67,8 @@ Analista Desarrollador con experiencia en el diseño, mantenimiento y modernizac
 
 <div align="center">
 
-![snake gif](https://raw.githubusercontent.com/jorgemartinez23/jorgemartinez23/output/github-contribution-grid-snake.svg)
+![snake gif](https://raw.githubusercontent.com/jorgemartinez23/jorgemartinez23/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![snake gif dark](https://raw.githubusercontent.com/jorgemartinez23/jorgemartinez23/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 </div>
 
