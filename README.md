@@ -1,11 +1,10 @@
 <div align="center">
 
-# 👋 ¡Hola! Soy Jorge Martinez
+# 👋 ¡Hola! Soy Analista Desarrollador
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Analista+Desarrollador;VB6+%2F+VB.NET+%2F+Java+%2F+SQL+Server;Flutter+%2F+Node.js+%2F+MariaDB;Modernizaci%C3%B3n+de+sistemas+legacy)](https://git.io/typing-svg)
 
-`VB.NET` `VB6` `Java` `Spring Boot` `Node.js` `Flutter` `SQL Server` `MariaDB`
-
+[![My Skills](https://skillicons.dev/icons?i=dotnet,cs,java,spring,nodejs,flutter,dart,mysql)](https://skillicons.dev)
 </div>
 
 <br/>
@@ -22,6 +21,12 @@ Analista Desarrollador con experiencia en el diseño, mantenimiento y modernizac
 <br/>
 
 ## 🛠️ Stack técnico
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=dotnet,cs,java,spring,nodejs,express,flutter,dart,mysql,git,github)](https://skillicons.dev)
+
+</div>
 
 <table>
 <tr>
@@ -50,7 +55,7 @@ Analista Desarrollador con experiencia en el diseño, mantenimiento y modernizac
 - MariaDB
 
 **Conciliaciones**
-- Simetrik (perfil Constructor)
+- Simetrik *(perfil Constructor)*
 
 </td>
 </tr>
