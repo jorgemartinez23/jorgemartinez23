@@ -139,9 +139,54 @@ Cada proyecto fue desarrollado de punta a punta: diseño de UI, API, base de dat
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| 💰 **Finanzas Martinus** | App de finanzas personales multi-moneda (ARS / USD / cripto) | `Flutter` `Node.js` `Express` `MariaDB` |
+| 🐾 **dogBook / CuidaPet** | Libreta digital para el cuidado de mascotas con IA, GPS y modo veterinario — 49 funcionalidades | `Flutter` `Node.js` `Express` `Supabase (PostgreSQL)` `Firebase` `Mistral AI` |
+| 👟 **Rey Calzados** | Sistema de control de stock y ventas para comercio, con backend local y app móvil para vendedores | `Flutter` `Node.js` `Express` `MariaDB` `JWT` |
+| 🎵 **MusicMartinus** | Reproductor de música offline con arquitectura basada en providers y suite de tests | `Flutter` `Riverpod` `Dart` |
+| 💰 **Finanzas Martinus** | App de finanzas personales multi-moneda (ARS / USD / cripto), offline-first con backend embebido | `Flutter` `SQLite` `Hive` `Dart (shelf)` |
 | ☕ **Cafetería Martinus** | Sistema de gestión con actualizaciones en tiempo real vía Socket.IO | `Flutter` `Node.js` `Express` `Socket.IO` `MariaDB` |
 | 🕒 **Sistema Abril** | Control de asistencia con reconocimiento biométrico | `Flutter` `Node.js` `Express` `MariaDB` |
+
+<br/>
+
+<details>
+<summary><b>🐾 dogBook / CuidaPet — Libreta digital para el cuidado de mascotas</b></summary>
+<br/>
+
+Aplicación completa (frontend + backend) con **49 funcionalidades** implementadas, pensada para el cuidado integral de mascotas con asistencia de IA.
+
+- **Frontend**: Flutter con Riverpod, mapas (Google Maps + GPS en tiempo real para paseos), gráficos con `fl_chart`, modo oscuro, i18n es/en con `easy_localization`
+- **Backend**: Node.js + Express, base de datos Supabase (PostgreSQL con RLS), 6 cron jobs para recordatorios automáticos (vacunas, tratamientos, reengagement)
+- **Inteligencia artificial**: Mistral (texto y visión) con fallback a Groq — lector de recetas médicas, análisis de fotos, consejos contextuales de alimentación y comportamiento
+- **Funcionalidades clave**: registros médicos completos (vacunas, desparasitación, peso, tratamientos), paseos con ruta GPS guardada, veterinarias y lugares cercanos geolocalizados, modo veterinario (Vet View) para compartir historial, sistema de cuidadores colaborativo, notificaciones push (Firebase), badges/logros, exportación de datos JSON/CSV
+- **Deploy**: backend en Render, frontend también compilado a Flutter Web
+
+</details>
+
+<details>
+<summary><b>👟 Rey Calzados — Sistema de control de stock</b></summary>
+<br/>
+
+Sistema de gestión de inventario y ventas para un comercio, con servidor local y app para vendedores.
+
+- **Backend**: Node.js + Express corriendo localmente (sin necesidad de hosting), conexión a MariaDB, autenticación JWT con roles (admin / vendedor)
+- **Frontend**: app Flutter (móvil y web) conectada al servidor por red local Wi-Fi, con instalación del backend como servicio de Windows (NSSM) para arranque automático
+- **Funcionalidades**: alta de productos con foto, talle y color; gestión de stock con descuento automático al confirmar una venta; alta de vendedores con roles diferenciados; reportes de ventas (resumen diario, top productos, alertas de stock mínimo)
+- **API REST** documentada con endpoints de autenticación, productos, ventas y reportes
+
+</details>
+
+<details>
+<summary><b>🎵 MusicMartinus — Reproductor de música offline</b></summary>
+<br/>
+
+Aplicación Flutter de reproducción de música local, con foco en arquitectura limpia y cobertura de tests.
+
+- **Estado**: `StateNotifier` + `StateNotifierProvider` (Riverpod), con uso de `select` para optimizar reconstrucciones de UI en pantallas de alta frecuencia de actualización (ej. progreso de descargas)
+- **Localización**: es/en gestionada con archivos ARB y generación automática de código
+- **Testing**: suite completa de tests de pantallas, servicios y assets, con mocks de red (`MockClient`) para que ningún test dependa de conexión real
+- **Buenas prácticas**: throttling de eventos de alta frecuencia, separación clara entre `data/`, `providers/`, `services/` y `ui/`
+
+</details>
 
 <br/>
 
